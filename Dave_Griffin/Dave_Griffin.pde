@@ -8,5 +8,6 @@ void draw() {
   } else {
     fill(255);
   }
+  ellipse(10, 10, 10, 10);
   ellipse(mouseX, mouseY, 160, 80);
 }
