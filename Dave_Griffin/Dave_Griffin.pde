@@ -11,4 +11,5 @@ void draw() {
   ellipse(10, 10, 10, 10);
   ellipse(120, 10, 50, 50);
   ellipse(mouseX, mouseY, 160, 80);
+  line(300, 300, 450, 500);
 }
