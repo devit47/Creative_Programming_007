@@ -6,9 +6,9 @@ void draw() {
   background(0, 26, 51);
   
   if(mousePressed){
-    fill(77);
-  }else{
-    fill(255);
+    fill(120);
+  }else if(keyPressed){
+    fill(121, 32, 255);
   }
   
   ellipse(10, 10, 10, 10);
