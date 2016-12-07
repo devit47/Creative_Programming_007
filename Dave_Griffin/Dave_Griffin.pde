@@ -22,6 +22,7 @@ void draw() {
   
   rect(200, 400, 200, 200);
   
-  rotate(mouseX / 100.0);
+  rotate(mouseX / 100.0  );
   rect(-80, -10, 160, 20);
+  rect(1000, -10, 160, 20);
 }
