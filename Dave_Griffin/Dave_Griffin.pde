@@ -1,9 +1,11 @@
+int x = 45, y = 64, z = 98;
+
 void setup() {
   size(1000, 1000);
 }
 
 void draw() {
-  background(0, 26, 51);
+  background(x, 26, 51);
   
   if(mousePressed){
     fill(120);
@@ -11,8 +13,9 @@ void draw() {
     fill(121, 32, 255);
   }
   
+  
   ellipse(10, 10, 10, 10);
-  ellipse(120, 10, 50, 50);
+  ellipse(z, 10, 50, 50);
   
   line(300, 300, 450, 500);
   
